@@ -10,6 +10,9 @@
     "Other"
   ],
   "main": "./dist/extension.js",
+  "activationEvents": [
+    "onCommand:git-initialize.initializeProject"
+  ],
   "contributes": {
     "commands": [
       {
@@ -50,5 +53,9 @@
     "piotrpalarz.vscode-gitignore-generator",
     "maurodesouza.vscode-simple-readme",
     "ultram4rine.vscode-choosealicense"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvilNick2/git-initialize.git"
+  }
 }
