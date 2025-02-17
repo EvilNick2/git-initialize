@@ -4,7 +4,7 @@ import simpleGit from 'simple-git';
 export function activate(context: vscode.ExtensionContext) {
 	let disposable = vscode.commands.registerCommand('git-initialize.initializeProject', async () => {
 		// Check for required extensions
-		const requiredExtensions = ['piotrpalarz.vscode-gitignore-generator', 'maurodesouza.vscode-simple-readme', 'ultram4rine.vscode-choosealicense'];
+		const requiredExtensions = ['piotrpalarz.vscode-gitignore-generator', 'evilnick2.evilnick2-readme-generator', 'ultram4rine.vscode-choosealicense'];
 		const missingExtensions = requiredExtensions.filter(ext => !vscode.extensions.getExtension(ext));
 
 		if (missingExtensions.length > 0) {
@@ -14,7 +14,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 		// Execute commands from other extensions
 		await vscode.commands.executeCommand('extension.gitignoreGenerate');
-		await vscode.commands.executeCommand('Readme.generate');
+		await vscode.commands.executeCommand('readme-generator.generateREADME');
 		await vscode.commands.executeCommand('license.addDefaultLicense');
 
 		// Initialize Git repository
@@ -33,4 +33,4 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(disposable);
 }
 
-export function deactivate() { }
+export function deactivate() {}

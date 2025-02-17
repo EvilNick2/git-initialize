@@ -1,8 +1,20 @@
 {
-  "name": "git-initialize",
-  "displayName": "git-initialize",
+  "name": "evilnick2-git-initialize",
+  "displayName": "Git Initialize",
   "description": "User Plugin to automatically create a full git repo with one command",
-  "version": "0.0.1",
+	"publisher": "evilnick2",
+	"author": "EvilNick2",
+	"license": "MIT",
+	"icon": "git-initialize-icon.png",
+  "version": "1.0.0",
+	"homepage": "https://github.com/EvilNick2/git-initialize",
+	"bugs": {
+		"url": "https://github.com/EvilNick2/git-initialize/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/EvilNick2/git-initialize.git"
+	},
   "engines": {
     "vscode": "^1.91.0"
   },
@@ -10,9 +22,7 @@
     "Other"
   ],
   "main": "./dist/extension.js",
-  "activationEvents": [
-    "onCommand:git-initialize.initializeProject"
-  ],
+  "activationEvents": [],
   "contributes": {
     "commands": [
       {
@@ -51,12 +61,7 @@
   },
   "extensionDependencies": [
     "piotrpalarz.vscode-gitignore-generator",
-    "maurodesouza.vscode-simple-readme",
+    "evilnick2.evilnick2-readme-generator",
     "ultram4rine.vscode-choosealicense"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/EvilNick2/git-initialize.git"
-  },
-  "publisher": "EvilNick"
+  ]
 }

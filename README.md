@@ -25,7 +25,7 @@
 ## :white_check_mark: Requirements ##
 
 <!-- Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/) installed. -->
-Before using this Extention you must have [.gitignore Generator](https://marketplace.visualstudio.com/items?itemName=piotrpalarz.vscode-gitignore-generator), [Simple Readme](https://marketplace.visualstudio.com/items?itemName=maurodesouza.vscode-simple-readme) and [Choose a License](https://marketplace.visualstudio.com/items?itemName=ultram4rine.vscode-choosealicense) installed
+Before using this Extention you must have [.gitignore Generator](https://marketplace.visualstudio.com/items?itemName=piotrpalarz.vscode-gitignore-generator), [README Generator](https://marketplace.visualstudio.com/items?itemName=EvilNick2.evilnick2-readme-generator) and [Choose a License](https://marketplace.visualstudio.com/items?itemName=ultram4rine.vscode-choosealicense) installed
 
 ## :checkered_flag: Usage ##
 
@@ -51,7 +51,7 @@ The following tools were used in this project:
 - [ESLint](https://eslint.org/)
 - [Visual Studio Code API](https://code.visualstudio.com/api)
 - [.gitignore Generator](https://marketplace.visualstudio.com/items?itemName=piotrpalarz.vscode-gitignore-generator)
-- [Simple Readme](https://marketplace.visualstudio.com/items?itemName=maurodesouza.vscode-simple-readme)
+- [README Generator](https://marketplace.visualstudio.com/items?itemName=EvilNick2.evilnick2-readme-generator)
 - [Choose a License](https://marketplace.visualstudio.com/items?itemName=ultram4rine.vscode-choosealicense)
 
 ## :memo: License ##
