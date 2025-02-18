@@ -6,7 +6,7 @@
 	"author": "EvilNick2",
 	"license": "MIT",
 	"icon": "git-initialize-icon.png",
-  "version": "1.0.0",
+  "version": "1.0.1",
 	"homepage": "https://github.com/EvilNick2/git-initialize",
 	"bugs": {
 		"url": "https://github.com/EvilNick2/git-initialize/issues"
@@ -29,7 +29,17 @@
         "command": "git-initialize.initializeProject",
         "title": "Git Initialize: Initialize Project"
       }
-    ]
+    ],
+		"configuration": {
+			"title": "Git Initialize",
+			"properties": {
+				"gitInitialize.autoAddOrigin": {
+					"type": "boolean",
+					"default": true,
+					"description": "Automatically add origin URL during git initialization"
+				}
+			}
+		}
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
